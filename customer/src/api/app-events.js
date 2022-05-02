@@ -8,7 +8,7 @@ module.exports = app => {
 
 		customerService.SubscribeEvents(payload);
 
-		console.log("==================== Shopping service received event ====================");
+		console.log("==================== Customer service received event ====================");
 
 		return res.status(200).json(payload);
 	});
